@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "rails:switch_rail",
-    "rails:parallel_rail",
-    "rails:cross_rail"
+    "railroads:switch_rail",
+    "railroads:parallel_rail",
+    "railroads:cross_rail"
   ]
 }

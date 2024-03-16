@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/rail_flat",
-  "textures": {
-    "rail": "rails:block/switch_rail_on_right"
-  }
-}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+	" R ",
+    "   "
+  ],
+  "key": {
+	"R": {
+      "item": "railroads:parallel_rail"
+    }
+  },
+  "result": {
+    "item": "minecraft:rail",
+    "count": 1
+  }
+}

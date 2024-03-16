@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "": {
-      "model": "rails:block/cross_rail"
-    }
-  }
-}
