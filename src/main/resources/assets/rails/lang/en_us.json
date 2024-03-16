@@ -1,0 +1,6 @@
+{
+  "itemGroup.rails": "Rails",
+  "block.rails.cross_rail": "Cross Rail",
+  "block.rails.parallel_rail": "Parallel Rail",
+  "block.rails.switch_rail": "Switch Rail"
+}

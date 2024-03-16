@@ -1,0 +1,26 @@
+
+{
+  "variants": {
+    "shape=north_south": {
+      "model": "block/rail"
+    },
+    "shape=east_west": {
+      "model": "block/rail",
+      "y": 90
+    },
+    "shape=ascending_east": {
+      "model": "block/rail_raised_ne",
+      "y": 90
+    },
+    "shape=ascending_west": {
+      "model": "block/rail_raised_sw",
+      "y": 90
+    },
+    "shape=ascending_north": {
+      "model": "block/rail_raised_ne"
+    },
+    "shape=ascending_south": {
+      "model": "block/rail_raised_sw"
+    }
+  }
+}
