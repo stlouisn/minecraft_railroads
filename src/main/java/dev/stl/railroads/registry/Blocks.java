@@ -19,15 +19,15 @@ public class Blocks {
 
     @SuppressWarnings("unused")
     public static final RegistryObject<Block> SWITCH_RAIL_BLOCK = BLOCKS.register("switch_rail", () ->
-            new SwitchRailBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).noCollission().strength(0.7F).sound(SoundType.METAL)));
+            new SwitchRailBlock(BlockBehaviour.Properties.of().noCollission().strength(0.7F).mapColor(MapColor.COLOR_BROWN).sound(SoundType.METAL)));
 
     @SuppressWarnings("unused")
     public static final RegistryObject<Block> PARALLEL_RAIL_BLOCK = BLOCKS.register("parallel_rail", () ->
-            new ParallelRailBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).noCollission().strength(0.7F).sound(SoundType.METAL)));
+            new ParallelRailBlock(BlockBehaviour.Properties.of().noCollission().strength(0.7F).mapColor(MapColor.COLOR_BROWN).sound(SoundType.METAL)));
 
     @SuppressWarnings("unused")
     public static final RegistryObject<Block> CROSS_RAIL_BLOCK = BLOCKS.register("cross_rail", () ->
-            new CrossRailBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).noCollission().strength(0.7F).sound(SoundType.METAL)));
+            new CrossRailBlock(BlockBehaviour.Properties.of().noCollission().strength(0.7F).mapColor(MapColor.COLOR_BROWN).sound(SoundType.METAL)));
 
     public static void register(IEventBus bus) {
         BLOCKS.register(bus);
