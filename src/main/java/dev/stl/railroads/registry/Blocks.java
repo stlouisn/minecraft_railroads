@@ -2,7 +2,6 @@ package dev.stl.railroads.registry;
 
 import dev.stl.railroads.Railroads;
 import dev.stl.railroads.blocks.CrossRailBlock;
-import dev.stl.railroads.blocks.ParallelRailBlock;
 import dev.stl.railroads.blocks.SwitchRailBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -20,10 +19,6 @@ public class Blocks {
     @SuppressWarnings("unused")
     public static final RegistryObject<Block> SWITCH_RAIL_BLOCK = BLOCKS.register("switch_rail", () ->
             new SwitchRailBlock(BlockBehaviour.Properties.of().noCollission().strength(0.7F).mapColor(MapColor.COLOR_BROWN).sound(SoundType.METAL)));
-
-    @SuppressWarnings("unused")
-    public static final RegistryObject<Block> PARALLEL_RAIL_BLOCK = BLOCKS.register("parallel_rail", () ->
-            new ParallelRailBlock(BlockBehaviour.Properties.of().noCollission().strength(0.7F).mapColor(MapColor.COLOR_BROWN).sound(SoundType.METAL)));
 
     @SuppressWarnings("unused")
     public static final RegistryObject<Block> CROSS_RAIL_BLOCK = BLOCKS.register("cross_rail", () ->

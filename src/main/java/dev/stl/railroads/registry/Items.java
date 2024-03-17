@@ -21,10 +21,6 @@ public class Items {
             new BlockItem(Blocks.SWITCH_RAIL_BLOCK.get(), modItem()));
 
     @SuppressWarnings("unused")
-    public static final RegistryObject<Item> PARALLEL_RAIL_ITEM = ITEMS.register("parallel_rail", () ->
-            new BlockItem(Blocks.PARALLEL_RAIL_BLOCK.get(), modItem()));
-
-    @SuppressWarnings("unused")
     public static final RegistryObject<Item> CROSS_RAIL_ITEM = ITEMS.register("cross_rail", () ->
             new BlockItem(Blocks.CROSS_RAIL_BLOCK.get(), modItem()));
 

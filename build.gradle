@@ -56,14 +56,15 @@ dependencies {
 
     forge "net.minecraftforge:forge:${project.minecraft_version}-${project.forge_version}"
 
-//    annotationProcessor("net.fabricmc:sponge-mixin:${project.mixin_version}")
+    annotationProcessor("net.fabricmc:sponge-mixin:${project.mixin_version}")
 
-//    compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:${project.mixin_extras_version}"))
-//    implementation(include("io.github.llamalad7:mixinextras-forge:${project.mixin_extras_version}"))
+    compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:${project.mixin_extras_version}"))
+    implementation(include("io.github.llamalad7:mixinextras-forge:${project.mixin_extras_version}"))
 
-//    modImplementation("curse.maven:${project.moonlight_project_id}:${project.moonlight_forge_version}")
+    modImplementation("curse.maven:${project.moonlight_project_id}:${project.moonlight_forge_version}")
 
 //    modImplementation("curse.maven:${project.jei_project_id}:${project.jei_forge_version}")
+    modRuntimeOnly("curse.maven:${project.jei_project_id}:${project.jei_forge_version}")
 
     implementation("org.jetbrains:annotations:${project.jetbrains_version}")
 

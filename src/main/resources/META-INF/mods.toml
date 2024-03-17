@@ -28,3 +28,10 @@ mandatory=true
 versionRange="[${minecraft_min_version},${minecraft_max_version})"
 ordering="NONE"
 side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "moonlight"
+mandatory = true
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"
